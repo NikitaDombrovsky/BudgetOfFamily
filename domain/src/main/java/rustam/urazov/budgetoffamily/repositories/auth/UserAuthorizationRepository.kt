@@ -6,4 +6,5 @@ import rustam.urazov.budgetoffamily.models.user.UserAuthData
 interface UserAuthorizationRepository {
 
     suspend fun authorize(userAuthData: UserAuthData): ResultWrapper<Any>
+    //amogus
 }
